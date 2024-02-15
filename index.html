@@ -14,7 +14,7 @@
 <body>
   <main class="bg-[#010313] min-h-screen bg-[url('images/background.png')] bg-center bg-no-repeat">
     <!-- home screen -->
-    <section class="home ">
+    <section class="home hidden">
       <div class="flex h-screen flex-col justify-center items-center">
         <h1 class="text-4xl md:text-8xl lg:text-9xl font-anton text-white">Alphabet Clash Pro</h1>
         <p class="text-white font-poppins font-medium text-xl my-6 md:my-8">Unleash Your Keyboard Kung Fu : Press
@@ -23,9 +23,67 @@
       </div>
     </section>
     <!-- play ground -->
-    <section class="play-ground">
+    <section class="play-ground ">
+      <div class="flex h-screen flex-col justify-center items-center gap-16">
+        <!-- screen -->
+        <div class="artboard artboard-horizontal phone-6 border-[20px] border-[#010313CC] rounded-2xl bg-[#FFFFFFB3]">
+          <div class="flex justify-center">
+            <p class="font-poppins bg-[#010313CC] text-white px-6 pb-4  rounded-b-xl">Don't watch keyboard while
+              playing...</p>
+          </div>
+          <h1 class="font-poppins text-9xl text-center font-semibold py-12">Y</h1>
+        </div>
+        <!-- keyboard -->
+        <div>
+          <div class="flex justify-center gap-1 my-1 w-full">
+            <kbd class="kbd">q</kbd>
+            <kbd class="kbd">w</kbd>
+            <kbd class="kbd">e</kbd>
+            <kbd class="kbd">r</kbd>
+            <kbd class="kbd">t</kbd>
+            <kbd class="kbd">y</kbd>
+            <kbd class="kbd">u</kbd>
+            <kbd class="kbd">i</kbd>
+            <kbd class="kbd">o</kbd>
+            <kbd class="kbd">p</kbd>
+          </div>
+          <div class="flex justify-center gap-1 my-1 w-full">
+            <kbd class="kbd">a</kbd>
+            <kbd class="kbd">s</kbd>
+            <kbd class="kbd">d</kbd>
+            <kbd class="kbd">f</kbd>
+            <kbd class="kbd">g</kbd>
+            <kbd class="kbd">h</kbd>
+            <kbd class="kbd">j</kbd>
+            <kbd class="kbd">k</kbd>
+            <kbd class="kbd">l</kbd>
+          </div>
+          <div class="flex justify-center gap-1 my-1 w-full">
+            <kbd class="kbd">z</kbd>
+            <kbd class="kbd">x</kbd>
+            <kbd class="kbd">c</kbd>
+            <kbd class="kbd">v</kbd>
+            <kbd class="kbd">b</kbd>
+            <kbd class="kbd">n</kbd>
+            <kbd class="kbd">m</kbd>
+            <kbd class="kbd">/</kbd>
+          </div>
+        </div>
+        <!-- buttons -->
+        <div class="flex  w-full justify-around">
+          <div class="px-4 py-3 rounded-xl bg-[#8b418b] flex justify-center items-center gap-2 text-white ">
+            Life
+            <img src="images/Group-23.svg" alt="">
+            <span>5</span>
+          </div>
+          <div class="px-4 py-3 rounded-xl bg-[#350490] flex justify-center items-center gap-2 text-white ">
+            Score
+            <img src="images/score.svg" alt="">
+            <span>5</span>
+          </div>
 
-      <!-- score board -->
+        </div>
+        <!-- score board -->
     </section>
     <section class="score">
 
